@@ -2,6 +2,8 @@
 
 [![Streamlit App](https://img.shields.io/badge/Live-Demo-green?logo=streamlit)](https://predicting-customer-churn-model.streamlit.app/)
 
+**🔗 Live App**: [https://predicting-customer-churn-model.streamlit.app/](https://predicting-customer-churn-model.streamlit.app/)
+
 This project focuses on developing a machine learning model to predict customer churn in the telecom industry. It analyzes customer behavior and demographic data to determine the likelihood of a customer discontinuing the service.
 
 ## ✅ Objective
@@ -67,8 +69,6 @@ An interactive web app was built using **Streamlit** to:
 - Visualize churn statistics
 - Predict churn risk
 - Download filtered datasets
-
-**🔗 Live App**: [https://predicting-customer-churn-model.streamlit.app/](https://predicting-customer-churn-model.streamlit.app/)
 
 ## 🛠️ How to Run Locally
 
