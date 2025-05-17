@@ -1,8 +1,10 @@
 # Customer Churn Prediction using Machine Learning
 
+[![Streamlit App](https://img.shields.io/badge/Live-Demo-green?logo=streamlit)](https://predicting-customer-churn-model.streamlit.app/)
+
 This project focuses on developing a machine learning model to predict customer churn in the telecom industry. It analyzes customer behavior and demographic data to determine the likelihood of a customer discontinuing the service.
 
-## 📌 Objective
+## ✅ Objective
 
 The primary goal of this project is to:
 
@@ -10,11 +12,11 @@ The primary goal of this project is to:
 - Help telecom companies proactively retain customers.
 - Identify the most influential factors contributing to churn.
 
-## 🧠 Technologies & Tools Used
+## 🧰 Technologies & Tools Used
 
 - **Python**  
 - **Pandas**, **NumPy** for data manipulation  
-- **Matplotlib**, **Seaborn** for data visualization  
+- **Matplotlib** for data visualization  
 - **Scikit-learn** for machine learning models  
 - **Google Colab** for model training  
 - **Streamlit** for creating a user-friendly dashboard  
@@ -29,45 +31,48 @@ The dataset contains customer information such as:
 
 Each record is labeled with a `Churn` column indicating whether the customer has left the company.
 
-## 🔍 Exploratory Data Analysis
+## 🔎 Exploratory Data Analysis
 
-Comprehensive EDA was conducted to understand:
+EDA was conducted to understand:
 
 - Distribution of churn vs non-churn customers
-- Impact of features such as contract type, internet service, and tenure on churn
+- Impact of features such as contract type, internet service, and tenure
 - Correlation between numerical features
 
 ## 🧪 Model Building
 
-Multiple machine learning models were evaluated including:
+Multiple machine learning models were evaluated:
 
 - Logistic Regression  
-- Random Forest Classifier  
+- Random Forest  
 - Decision Tree  
 - Support Vector Machine (SVM)  
 
-The **Random Forest Classifier** provided the best performance with high accuracy and robustness to overfitting.
+The **Random Forest Classifier** gave the best results in terms of accuracy and robustness.
 
 ## 📈 Model Evaluation
 
-Models were evaluated based on:
+Models were evaluated using:
 
 - Accuracy  
 - Precision, Recall, F1-Score  
 - Confusion Matrix  
-- ROC-AUC Curve  
+- ROC-AUC  
 
 ## 🖥️ Streamlit Dashboard
 
-A web-based interactive dashboard was built using Streamlit, allowing users to:
+An interactive web app was built using **Streamlit** to:
 
-- Upload new data
-- Visualize key insights
-- Predict churn probability for each customer
+- Upload and filter customer data
+- Visualize churn statistics
+- Predict churn risk
+- Download filtered datasets
 
-## 🚀 How to Run the App
+**🔗 Live App**: [https://predicting-customer-churn-model.streamlit.app/](https://predicting-customer-churn-model.streamlit.app/)
 
-1. Clone this repository  
-2. Install dependencies:  
+## 🛠️ How to Run Locally
+
+1. Clone the repo
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
